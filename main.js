@@ -1,13 +1,13 @@
 let texts = [
-  "Ankietowanie 90% Polaków...",
-  "Zbieranie informacji z grupek na Facebooku...",
-  "Szukanie odpowiedzi wśród amerykańskich naukowców...",
-  "Analizowanie wiekowych tekstów kultury...",
-  "Rozwiązywanie ogromnych układów równań...",
-  "Przeszukiwanie wszystkich zakątków świata...",
-  "Proszenie o pomoc NASA...",
-  "Szukanie eksperta w tej dziedzinie na TikToku...",
-  'Wywieszanie ulotek "Zaginęła osoba, która pytała. Prosimy o kontakt"...',
+  "Surveying 90% of Americans...",
+  "Gathering information from Facebook groups...",
+  "Searching for answers from American scientists...",
+  "Analyzing ancient cultural texts...",
+  "Solving giant systems of equations...",
+  "Searching every place in the world...",
+  "Asking NASA to help...",
+  "Searching for a TikTok expert on this subject...",
+  'Putting up paper sheets that say "We have lost the person who asked, can you find them?"...',
 ];
 
 function randomText(){
