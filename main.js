@@ -10,7 +10,7 @@ let texts = [
   'Putting up paper sheets that say "We have lost the person who asked, can you find them?"...',
 ];
 
-function randomText(){
+function randomText() {
   let index = Math.floor(Math.random() * texts.length);
   let res = texts[index];
 
@@ -19,12 +19,12 @@ function randomText(){
   return res;
 }
 
-function done(){
+function done() {
   $("#pre-kto").fadeOut();
   $("#after-kto").fadeIn();
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
   $("#how-long").html(((Math.random() * 100) / 100 + 10).toFixed(5));
 
   // [sec]
@@ -34,18 +34,18 @@ $(document).ready(function(){
   let is_done = false;
 
   $("#progress-kto").animate({
-    width: "100%"
-  }, DURATION*1000);
+      width: "100%"
+  }, DURATION * 1000);
 
-  setTimeout(function(){
-    done();
-    is_done = true;
-  }, DURATION*1000)
+  setTimeout(function () {
+      done();
+      is_done = true;
+  }, DURATION * 1000)
 
-  setInterval(function(){
-    if(is_done)
-      return false;
+  setInterval(function () {
+      if (is_done)
+          return false;
 
-    $("#text-random").html(randomText());
-  }, INTERVAL*1000);
+      $("#text-random").html(randomText());
+  }, INTERVAL * 1000);
 });
