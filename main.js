@@ -8,6 +8,9 @@ let texts = [
   "Asking NASA to help...",
   "Searching for a TikTok expert on this subject...",
   'Putting up paper sheets that say "We have lost the person who asked, can you find them?"...',
+  "Asking national minorities...",
+  "Gathering information from illegal sources...",
+  "Asking aliens for help..."
 ];
 
 function randomText() {
